@@ -1,0 +1,30 @@
+#calendarWrapper{
+	width: 32%;
+	border: 1px solid green;
+}
+#header{
+	text-align: center;
+	background-color: darkgreen;
+	color: white;
+	height: 30px;
+	padding-top: 5px;
+}
+#calendarWrapper td{
+	width: 8%;
+	text-align: center;
+}
+.text-align-c{
+	text-align:center;
+}
+.currentDay{
+	background-color: orange;
+	color: red;
+}
+.pull-left{
+	float: left;
+	margin-left: 10px;
+}
+.pull-right{
+	float: right;
+	margin-right: 10px;
+}
