@@ -41,7 +41,7 @@ window.onload = function(){
 	_('div').changeAttr('id', 'calendarWrapper');
 	_('#calendarWrapper').addNewElement('div', '', 'header', 'text-align-c');
 	_('#header').getSetHTML('<a id="backArrow" class="back-arrow pull-left"> << </a> <span id="monthTitle" class="text-align-c"></span><span class="right-arrow pull-right"> >> </span>' )
-	_("#monthTitle").getSetText(currentMonth.name);
+	_("#monthTitle").getSetText(currentMonth.name + ' ' + currentYear);
 	/*_('#backArrow').click(function(){
 		initializeCalendar(currentMonth - 1, currentDate);
 	})*/
